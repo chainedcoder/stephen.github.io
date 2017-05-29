@@ -1,0 +1,40 @@
+.last{
+  text-decoration: underline;
+  text-decoration-color: #f05f40;
+}
+
+.char{
+  display: inline;
+}
+#leadmsg{
+  display: inline;
+}
+
+.cursor{
+  display: inline;
+  opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 1s infinite;
+}
+
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity 0.25s;
+}
